@@ -20,13 +20,13 @@ Starter kit for getting started in the [IEEE Investment Ranking Challenge](https
 ```
 pip install --upgrade crowdai
 ```
-**Note** : This challenge expects atleast `crowdai` client version `1.0.16`
+**Note** : This challenge expects atleast `crowdai` client version `1.0.17`
 
 # Usage
 ```
 import crowdai
 api_key = "YOUR CROWDAI API KEY HERE"
-challenge = crowdai.Challenge("IEEEStockPredictionChallenge", api_key)
+challenge = crowdai.Challenge("IEEEInvestmentRankingChallenge", api_key)
 result = challenge.submit("sample_submission.csv")
 print(result)
 ```
