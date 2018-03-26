@@ -32,9 +32,9 @@ pip install --upgrade crowdai
 You are then expected to go to the [Datasets Page](https://www.crowdai.org/challenges/ieee-investment-ranking-challenge/dataset_files)  and download the `Full Dataset` file and save it inside the `data/` folder as `full_dataset.csv`; and then download the `Prediction Template` file and save it inside the `data/` folder as `prediction_template.csv`.
 
 # Baselines
-**TODO**
+A [jupyter-notebook] with instructions for parsing the data, training a simple random forest based model, and making a submission is available at : [random_forest.ipynb](random_forest.ipynb)
 
-# Usage
+# Submission of predicted file to crowdAI
 ```
 import crowdai
 api_key = "YOUR CROWDAI API KEY HERE"
