@@ -20,7 +20,7 @@ You can download the datasets at : [https://www.crowdai.org/challenges/ieee-inve
 
 Each team must create a model that ranks a set of stocks based on the expected return over a forward 6-month window. This model can be a risk factor-based strategy (multi-factor model), predictive model, or any other data-based heuristic. There are many ways to approach this task and creative, non-traditional solutions are strongly encouraged. The final model will be tested on each 6-month period from 2002 to 2017.
 
-# Insallation
+# Installation
 
 ```
 git clone git@github.com:crowdAI/ieee_investment_ranking_challenge-starter-kit.git
