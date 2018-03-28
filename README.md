@@ -1,6 +1,8 @@
 # ieee_investment_ranking_challenge-starter-kit
 ![CrowdAI-Logo](https://github.com/crowdAI/crowdai/raw/master/app/assets/images/misc/crowdai-logo-smile.svg?sanitize=true)
 
+[![gitter-badge](https://badges.gitter.im/crowdAI/crowdAI/ieee-investment-ranking-challenge.png)](https://gitter.im/crowdAI/crowdAI/ieee-investment-ranking-challenge)
+
 Starter kit for getting started in the [IEEE Investment Ranking Challenge](https://www.crowdai.org/challenges/ieee-investment-ranking-challenge).
 
 # Introduction
