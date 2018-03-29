@@ -50,6 +50,7 @@ challenge = crowdai.Challenge("IEEEInvestmentRankingChallenge", api_key)
 result = challenge.submit("sample_submission.csv")
 print(result)
 ```
+**Note** : The evaluation script was incorrectly calculating NDCG as of the challenge launch. This was fixed 03/28. Solutions submitted prior to this date would have provided incorrect results. For details and questions, join the discussion [here.](https://www.crowdai.org/topics/notice-error-in-ndcg-calculation-in-evaluation-script/discussion)
 
 # Author
 SP Mohanty <sharada.mohanty@epfl.ch>   
