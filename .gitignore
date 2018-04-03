@@ -9,7 +9,7 @@ data/*.cs
 *.odt
 *.pyc
 
-# ignore these direcories
+# ignore these directories
 venv
 tmp
 menv
