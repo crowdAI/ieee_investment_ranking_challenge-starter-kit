@@ -1,2 +1,15 @@
 data/*.cs
 .ipynb_checkpoints/
+
+# ignore these files
+*.csv
+*.tsv
+*.doc
+*.docx
+*.odt
+*.pyc
+
+# ignore these direcories
+venv
+tmp
+menv
