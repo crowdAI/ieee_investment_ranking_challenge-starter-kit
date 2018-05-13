@@ -47,7 +47,7 @@ jupyter-notebook random_forest.ipynb
 import crowdai
 api_key = "YOUR CROWDAI API KEY HERE"
 challenge = crowdai.Challenge("IEEEInvestmentRankingChallenge", api_key)
-result = challenge.submit("sample_submission.csv")
+result = challenge.submit("sample_submission.csv", round=2)
 print(result)
 ```
 **Note** : The evaluation script was incorrectly calculating NDCG as of the challenge launch. This was fixed 03/28. Solutions submitted prior to this date would have provided incorrect results. For details and questions, join the discussion [here.](https://www.crowdai.org/topics/notice-error-in-ndcg-calculation-in-evaluation-script/discussion)
